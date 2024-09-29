@@ -9,6 +9,6 @@ on:
         description: A cheerful word
 jobs:
   run:
-    runs-on: Ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - run echo "${{ inputs.greeting }}"
+      - run: echo "${{ inputs.greeting }}"
