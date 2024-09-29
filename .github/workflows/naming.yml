@@ -1,0 +1,11 @@
+name: Naming
+on: push
+jobs:
+  print:
+    name: Super Useful job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Amazing Script
+        run: echo "Heelo"
+      - name: Second Script
+        run: echo "World"
